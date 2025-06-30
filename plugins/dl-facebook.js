@@ -25,7 +25,7 @@ malvin({
 
     const fbData = await facebook(q);
     
-    const caption = `╭━━━〔 *ᴍᴀʟᴠɪɴ-xᴅ ғʙ ᴅʟ* 〕━━━⊷\n`
+    const caption = `╭━━━〔 *J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞ғʙ ᴅʟ* 〕━━━⊷\n`
       + `┃▸ *Dᴜʀᴀᴛɪᴏɴ*: ${fbData.result.duration}\n`
       + `╰━━━⪼\n\n`
       + `🌐 *Download Options:*\n`
@@ -70,7 +70,7 @@ malvin({
           case "2":
             await conn.sendMessage(senderID, {
               video: { url: videoLinks.HD },
-              caption: "📥 *Downloaded in HD Quality*"
+              caption: "📥 *Downloaded in HD Quality by Joshuamambo1*"
             }, { quoted: receivedMsg });
             break;
 
