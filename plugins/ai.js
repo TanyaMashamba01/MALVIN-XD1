@@ -4,8 +4,8 @@ const axios = require("axios");
 const { malvin } = require("../malvin");
 
 malvin({
-    pattern: "malvin",
-    alias: "malvin",
+    pattern: "netking",
+    alias: "netking",
     desc: "Interact with ChatGPT using the XD Api.",
     category: "ai",
     react: "🤖",
@@ -14,7 +14,7 @@ malvin({
 }, async (conn, mek, m, { from, args, q, reply }) => {
     try {
         // Vérification de l'entrée utilisateur
-        if (!q) return reply("⚠️ Please provide a query for Malvin Ai.\n\nExample:\n.malvin What is AI?");
+        if (!q) return reply("⚠️ Please provide a query for NetKing Ai.\n\nExample:\n.malvin What is AI?");
 
         // Utilisation de `${text}` dans le endpoint API
         const text = q;  // Texte de la requête de l'utilisateur
@@ -48,10 +48,10 @@ malvin({
         }
 
         // Image AI à envoyer
-        const ALIVE_IMG = 'https://files.catbox.moe/79tf9z.jpg'; // Remplacez par l'URL de votre image AI
+        const ALIVE_IMG = 'https://files.catbox.moe/tmtn0f.jpeg'; // Remplacez par l'URL de votre image AI
 
         // Légende avec des informations formatées
-        const formattedInfo = `🤖 *Malvin's Response:*\n\n${gptResponse}`;
+        const formattedInfo = `🤖 *NetKing's Response:*\n\n${gptResponse}`;
 
         // Envoyer le message avec image et légende
         await conn.sendMessage(from, {
@@ -62,8 +62,8 @@ malvin({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363402507750390@newsletter',
-                    newsletterName: '*MALVIN 𝐀𝐈*',
+                    newsletterJid: '120363347365643318@newsletter',
+                    newsletterName: '*JMZ MIDKING 𝐀𝐈*',
                     serverMessageId: 143
                 }
             }
@@ -123,7 +123,7 @@ malvin({
         }
 
         // AI image to attach
-        const AI_IMG = 'https://files.catbox.moe/whe8ct.jpg'; // Replace with a valid image URL
+        const AI_IMG = 'https://files.catbox.moe/cik12y.jpg'; // Replace with a valid image URL
 
         // Formatted response text
         const formattedInfo = `🤖 *Llama3 Response:*\n\n${llamaResponse}`;
@@ -137,8 +137,8 @@ malvin({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363402507750390@newsletter',
-                    newsletterName: 'ᴍᴀʟᴠɪɴ-xᴅ 𝐀𝐈',
+                    newsletterJid: '120363347365643318@newsletter',
+                    newsletterName: 'J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞ 𝐀𝐈',
                     serverMessageId: 143
                 }
             }
