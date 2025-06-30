@@ -14,7 +14,7 @@ malvin({
     // Check if the user provided a TikTok video URL
     const tiktokUrl = args[0];
     if (!tiktokUrl || !tiktokUrl.includes("tiktok.com")) {
-      return reply('Please provide a valid TikTok video URL. Example: `.tiktok https://tiktok.com/...`');
+      return reply('Please provide a valid TikTok video URL. Example: `.tiktok https://tiktok.com/@joshuamambo2 ...`');
     }
 
     // Add a reaction to indicate processing
@@ -49,21 +49,21 @@ malvin({
     // Send the video with details
     await conn.sendMessage(from, {
       video: videoBuffer,
-      caption: `📥 *ᴛɪᴋᴛᴏᴋ Vɪᴅᴇᴏ ᴅʟ*\n\n` +
+      caption: `📥 *J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞ᴅʟ*\n\n` +
         `🔖 *Tɪᴛʟᴇ*: ${title || "No title"}\n` +
         `👤 *Aᴜᴛʜᴏʀ*: @${author.username} (${author.nickname})\n` +
         `❤️ *Lɪᴋᴇs*: ${metrics.digg_count}\n` +
         `💬 *Cᴏᴍᴍᴇɴᴛs*: ${metrics.comment_count}\n` +
         `🔁 *Sʜᴀʀᴇs*: ${metrics.share_count}\n` +
         `📥 *Doᴡɴʟᴏᴀᴅs*: ${metrics.download_count}\n\n` +
-        `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`,
+        `> © J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞ ᴍʀ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363402507750390@newsletter',
-          newsletterName: '『 ᴍᴀʟᴠɪɴ-xᴅ 』',
+          newsletterJid: '120363347365643318@newsletter',
+          newsletterName: '『 J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ S̸͟͞u̸͟͞p̸͟͞p̸͟͞o̸͟͞r̸͟͞t̸͟͞ 』',
           serverMessageId: 143
         }
       }
