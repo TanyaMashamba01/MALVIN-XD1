@@ -1,7 +1,7 @@
 {
   "name": "ᴍᴀʟᴠɪɴ-xᴅ",
   "description": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
-  "logo": "https://files.catbox.moe/qumhu4.jpg",
+  "logo": "https://files.catbox.moe/cik12y.jpg",
   "keywords": ["MALVIN XD"],
   "success_url": "/",
 
@@ -21,7 +21,7 @@
     },
      "PREFIX": {
        "description": "Bot command prefix, (e.g, . , ! @ etc",
-      "value": "."
+      "value": "+"
       "required": true,
       
     },
