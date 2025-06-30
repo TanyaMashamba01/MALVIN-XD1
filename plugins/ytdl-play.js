@@ -44,7 +44,7 @@ malvin({
             ptt: false
         }, { quoted: mek });
 
-        await reply(`✅ *${title}* downloaded successfully!`);
+        await reply(`✅ *${title}* downloaded successfully!by Joshuamambo1 NetKing`);
 
     } catch (error) {
         console.error(error);
